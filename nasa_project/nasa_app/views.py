@@ -26,6 +26,8 @@ def get_mars_weather():
     print(weather)
     return(weather)
 
+    
+
 
 def index(request):
     context = {
