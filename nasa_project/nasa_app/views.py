@@ -20,13 +20,14 @@ def get_photo():
     print(photo)
     return(photo)
 
+
+
 def get_mars_weather():
     response = requests.get(mars_weather)
     weather = response.json()
     print(weather)
     return(weather)
 
-    
 
 
 def index(request):

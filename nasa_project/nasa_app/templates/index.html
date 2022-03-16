@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
     <title>Home</title>
 </head>
 <body>
-    <h1>{{data.date}}</h1>
-        <h3>{{data}}</h3>
-        <h3>{{data.explanation}}</h3>
-        <h3>{{data.hdurl}}</h3>
-        <h3>{{photo}}</h3>
-        <h3>{{weather}}</h3>
-        <h3>{{weather.validity_checks}}</h3>
-        <h3>{{weather.sol_hours_with_data}}</h3>
-        <h3></h3>
+    <h1 class="header">Welcome To My Nasa Api!</h1>
+    <h1>Date of information being displayed {{data.date}}</h1>
+    <img src="static/images/nasa_pic1.jpeg" alt="nasa1" class="image" height="550px">
+    <h3>{{data.explanation}}</h3>
+    <h1>Check out the picture of the day!</h1>
+    <h3>{{data.hdurl}}</h3>
+    <h3>{{weather.validity_checks}}</h3>
+    <h3>{{weather.sol_hours_with_data}}</h3>
     </body>
 </html>
