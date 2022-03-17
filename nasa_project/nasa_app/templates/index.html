@@ -7,13 +7,18 @@
     <title>Home</title>
 </head>
 <body>
-    <h1 class="header">Welcome To My Nasa Api!</h1>
+    {% load static %}
+    <h1 class="header">Welcome To My Nasa API Web App!</h1>
     <h1>Date of information being displayed {{data.date}}</h1>
-    <img src="static/images/nasa_pic1.jpeg" alt="nasa1" class="image" height="550px">
-    <h3>{{data.explanation}}</h3>
-    <h1>Check out the picture of the day!</h1>
+    <img src="static/images/nasa_pic1.jpeg" alt="nasa1" class="image" height="450px">
+    <p class="text">{{data.explanation}}</p>
+    <h2>Check out the NASA picture of the day!</h2>
     <h3>{{data.hdurl}}</h3>
-    <h3>{{weather.validity_checks}}</h3>
-    <h3>{{weather.sol_hours_with_data}}</h3>
+    <span class="definition">According to Google:</span>
+    <span class="blue-text">A sol is the apparent interval between two successive returns of the Sun 
+    to the same meridian (sundial time) as seen by an observer on Mars. It is one of several units for timekeeping on Mars. A sol is slightly longer than an Earth day.
+    It is approximately 24 hours, 39 minutes, 35 seconds long.</span>
+    <h3>Check out the current sol hours on Mars!</h3>
+    <p class="weather">{{weather.validity_checks}}</p>
     </body>
 </html>

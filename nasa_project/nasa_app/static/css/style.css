@@ -1,8 +1,42 @@
 .header {
     text-align: center;
     background-color: lightskyblue;
-    padding: 155px;
+    padding: 100px;
 }
+
 .image {
-    margin-left: 1036px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+h2 {
+    padding-left: 25px;
+}
+
+h3 {
+    padding-left: 25px;
+}
+
+.text{
+    font-size: 20px;
+    padding-left: 25px;
+  }
+
+.definition {
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+
+.blue-text {
+    font-style: italic;
+    font-size: 20px;
+    color: blue;
+}
+
+.weather {
+    font-size: 20px;
+    padding-left: 25px;
 }
