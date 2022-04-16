@@ -1,0 +1,1 @@
+web: gunicorn nasa_project.wsgi --log-file -
