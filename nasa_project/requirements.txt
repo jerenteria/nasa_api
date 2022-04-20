@@ -11,7 +11,7 @@ click==8.0.3
 cryptography==36.0.1
 Django==3.2.7
 Flask==2.0.2
-gunicorn @ git+https://github.com/benoitc/gunicorn.git@933b210f2eff943f4cd9502c676f3d93c82f171c
+gunicorn==20.1.0
 h11==0.13.0
 idna==3.3
 itsdangerous==2.0.1
