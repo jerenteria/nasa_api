@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-mgcywgzgr_$y21$ocx@)%v-s(kel)s0kwx79du88qs%x&7=pf&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["blooming-sea-54604.herokuapp.com", "127.0.0.1"]
+ALLOWED_HOSTS = ["juan-nasa-api.herokuapp.com", "127.0.0.1"]
 
 
 # Application definition
@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'nasa_project.urls'
